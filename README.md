@@ -1,7 +1,7 @@
 # AWS Lambda function upload images and save into different folders with differents sizes.
 
-## Structutre:
-Get image and save this inside "products/" (folder) and "product_id" (folder).
+## Target:
+Get image and save this inside "products/" (folder) and "product_id" (folder) in differents sizes.
 
 ## Install package:
 ```
@@ -51,7 +51,7 @@ curl -X POST -k -H 'Content-Type: application/json' -i '<API endpoint>' --data  
 ```
 
 ### Complete Official Documentation:
-![AWS Documentation](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+[AWS Documentation](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 
 
 
