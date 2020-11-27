@@ -14,8 +14,11 @@ pip install pip install --target . PIL
 pip install pip install --target . Pillow
 ```
 
-#### Bug: 
-Pillow can't not work but the solution is download the file and decompress inside in the same folder:
+#### Problem:
+**_Error: cannot import name '_imaging' from 'PIL' Python 3.7 runtime_**
+
+Pillow swould not work but the solution is download the file and decompress inside in the same folder:
+
 ```
 Pillow-7.1.2-cp37-cp37m-manylinux1_x86_64.whl
 ```
