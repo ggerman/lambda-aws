@@ -5,6 +5,8 @@ Get image and save this inside "products/" (folder) and "product_id" (folder) in
 
 ### Instalation:
 
+### Requriments: Python >= 3.7
+
 ### Install package:
 ```
 pip install --target . json
@@ -17,7 +19,7 @@ pip install pip install --target . Pillow
 #### Problem:
 **_Error: cannot import name '_imaging' from 'PIL' Python 3.7 runtime_**
 
-Pillow swould not work but the solution is download the file and decompress inside in the same folder:
+Pillow swouldswould ork but the solution is download the file and decompress inside in the same folder:
 
 ```
 Pillow-7.1.2-cp37-cp37m-manylinux1_x86_64.whl
