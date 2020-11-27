@@ -50,7 +50,8 @@ Set time for wait the function run and set the memory quantity.
 curl -X POST -k -H 'Content-Type: application/json' -i '<API endpoint>' --data  '[{"url": "<source_image_name>", "bucket_prefix":"<prefix>", "bucket_name": "<bucket_name>", "bucket_suffix": "<suffix>", "product_id": "<folder_name>", "name": "<destination_file_name>"}]' 
 ```
 
-
+### Complete Official Documentation:
+![AWS Documentation](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 
 
 
